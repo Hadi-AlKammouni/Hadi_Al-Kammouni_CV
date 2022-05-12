@@ -32,3 +32,20 @@ box-sizing: border-box;
     background-color: #ddd;
     color: black;
 }
+
+/*Layout*/
+.sections {  
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-section {
+    flex: 20%;
+    background-color: #48474738;
+    padding: 20px;
+}
+.right-section {
+    flex: 70%;
+    background-color: rgb(125, 183, 166);
+    opacity: 0.6;
+    padding: 20px;
+}
