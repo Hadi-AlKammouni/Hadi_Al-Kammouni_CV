@@ -1,0 +1,8 @@
+/*The box-sizing property defines how the width and height of an element are calculated:
+should they include padding and borders, or not.
+source: "https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp"*/
+
+/*Fixing everything to box sizing*/
+* {
+box-sizing: border-box;
+}
