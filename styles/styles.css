@@ -54,3 +54,20 @@ box-sizing: border-box;
     width: 100%;
     padding: 20px;
 }
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    padding: 0%;
+    text-align: center;
+    background: #1abc9c;
+    justify-content: space-between;
+}
+.footer > div {
+    color: #f1f1f1;
+    margin: 10px;
+    padding: 0%p;
+    font-size: 30px;
+    
+}
