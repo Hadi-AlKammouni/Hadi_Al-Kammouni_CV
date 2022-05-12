@@ -46,7 +46,7 @@ box-sizing: border-box;
 .right-section {
     flex: 70%;
     background-color: rgb(125, 183, 166);
-    opacity: 0.6;
+    opacity: 0.8;
     padding: 20px;
 }
 
@@ -69,5 +69,11 @@ box-sizing: border-box;
     margin: 10px;
     padding: 0%p;
     font-size: 30px;
-    
 }
+
+@media screen and (max-width: 700px) {
+    .sections, .nvbar {   
+      flex-direction: column;
+    }
+  }
+
