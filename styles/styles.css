@@ -6,3 +6,10 @@ source: "https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp"*/
 * {
 box-sizing: border-box;
 }
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
