@@ -49,3 +49,8 @@ box-sizing: border-box;
     opacity: 0.6;
     padding: 20px;
 }
+
+.image {
+    width: 100%;
+    padding: 20px;
+}
