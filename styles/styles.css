@@ -73,6 +73,19 @@ box-sizing: border-box;
     font-size: 30px;
 }
 
+.skills{
+    justify-content: center;
+    display: flex; 
+}
+.skills>div{
+    margin: 1px;
+    align-self: center;
+    width: 20%;
+}
+.skills-img{
+    width: 70%;
+}
+
 @media screen and (max-width: 700px) {
     .sections, .nvbar {   
       flex-direction: column;
