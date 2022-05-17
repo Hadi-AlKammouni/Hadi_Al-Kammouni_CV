@@ -37,6 +37,7 @@ box-sizing: border-box;
 .sections {  
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 .left-section {
     flex: 20%;
@@ -44,6 +45,7 @@ box-sizing: border-box;
     padding: 20px;
 }
 .right-section {
+    
     flex: 70%;
     background-color: rgb(125, 183, 166);
     opacity: 0.8;
